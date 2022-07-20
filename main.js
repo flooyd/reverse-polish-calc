@@ -127,12 +127,4 @@ const formatOutputs = () => {
   formattedOutputs = formattedOutputs.filter((output) => output !== "");
 };
 
-readline.emitKeypressEvents(process.stdin);
-
-if (process.stdin.isTTY) {
-  process.stdin.setRawMode(true);
-}
-
-process.stdin.on("keypress", (chunk, key) => {});
-
 inputOutput();
