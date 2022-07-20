@@ -5,9 +5,7 @@ npm install
 node main.js
 
 Example
-...
-...
->-
+
 Calculation: [5, -2, '-']
 Result: ['7']
->
+
